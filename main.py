@@ -110,9 +110,8 @@ def execShutdown():
         logger.info("shutdown")
         subprocess.run(["sync"])
         # unmount usb drives before shutdown to prevent hang
-        subprocess.run(["sudo", "umount", "-a", "-t", "vfat,exfat,ntfs"])
-        subprocess.run(["sudo", "shutdown", "-h", "now"])
-
+        # subprocess.run(["sudo", "umount", "-a", "-t", "vfat,exfat,ntfs"])
+        subprocess.run(["sudo", "/usr/sbin/shutdown", "-h", "now"])
 
 ##########
 # Startup check
