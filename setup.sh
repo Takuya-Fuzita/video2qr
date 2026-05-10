@@ -54,6 +54,7 @@ fi
 echo "[deploy] done"
 
 bash "${setupDir}/06_autostart.sh"
+bash "${setupDir}/07_verify.sh"
 
 echo ""
 echo "=== all done. run: sudo reboot ==="
