@@ -1,0 +1,15 @@
+{
+    "menu_items": [
+        {
+            "key": "1",
+            "label": "Extract 63-digit number string",
+            "pattern": "(?<!\\d)\\d{63}(?!\\d)"
+        },
+        {
+            "key": "2",
+            "label": "Extract 48-digit number string",
+            "pattern": "(?<!\\d)\\d{48}(?!\\d)"
+        }
+    ]
+}
+

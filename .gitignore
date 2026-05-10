@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# venv (should be on the Pi, not in repo)
+venv/
+.venv/
+
+# captured images / generated QR codes
+*.png
+!docs/images/*.png
+
+# Tesseract custom trained data (large files)
+*.traineddata
+
+# logs
+*.log
+
+# editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
