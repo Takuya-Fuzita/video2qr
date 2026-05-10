@@ -1,13 +1,12 @@
 #!/bin/bash
 set -e
 
-echo "[01_packages] apt update..."
-sudo apt update
-
-sudo apt upgrade -y
+# echo "[01_packages] apt update..."
+# sudo apt update
+# sudo apt upgrade -y
 
 echo "[01_packages] installing packages..."
-sudo apt install -y git
+# sudo apt install -y git
 sudo apt install -y python3 python3-pip python3-venv
 sudo apt install -y tesseract-ocr
 sudo apt install -y fbi
