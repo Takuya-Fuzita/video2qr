@@ -11,6 +11,7 @@ echo "[05_system] configuring sudoers / systemd / udev..."
 
 sudoersFile=/etc/sudoers.d/video2qr
 echo "${APP_USER} ALL=(ALL) NOPASSWD: /usr/sbin/shutdown" | sudo tee "${sudoersFile}" > /dev/null
+sudo chmod 0440 "${sudoersFile}"
 sudo visudo -c
 
 ###########
