@@ -10,9 +10,9 @@ setupDir="${repoDir}/setup"
 
 echo "=== video2qr setup ==="
 echo ""
-echo "Select language:"
-echo "  1) English"
-echo "  2) Japanese"
+echo "Do you need Japanese locale? (LANG=ja_JP.UTF-8  + CJK fonts)"
+echo "  1) No  ( English environment )"
+echo "  2) Yes ( Japanese environment ) "
 echo ""
 
 while true; do
