@@ -51,7 +51,7 @@ QR code density is also a factor. On a small LCD, a dense QR code becomes unread
 Clone this repository on the Raspberry Pi and run the setup script.
 
 ```bash
-cd /usr/local/bin/
+cd /usr/local/src/
 git clone https://github.com/Takuya-Fuzita/video2qr.git
 cd video2qr
 sudo chmod +x setup.sh
