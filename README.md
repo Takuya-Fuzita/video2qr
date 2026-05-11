@@ -78,7 +78,7 @@ Edit `menu.json` to add or change the strings you want to extract. Each item nee
     ]
 }
 ```
-
+![](docs/images/menu_sample.png)
 Menu items are automatically reflected without changing any Python code.
 
 ## Hash verification
