@@ -52,7 +52,7 @@ Raspberry Pi上でリポジトリをcloneし、セットアップスクリプト
 
 ```bash
 cd /usr/local/src/
-git clone https://github.com/Takuya-Fuzita/video2qr.git
+sudo git clone https://github.com/Takuya-Fuzita/video2qr.git
 cd video2qr
 sudo chmod +x setup.sh
 ./setup.sh
