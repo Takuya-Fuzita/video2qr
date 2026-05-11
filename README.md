@@ -52,7 +52,7 @@ Clone this repository on the Raspberry Pi and run the setup script.
 
 ```bash
 cd /usr/local/src/
-git clone https://github.com/Takuya-Fuzita/video2qr.git
+sudo git clone https://github.com/Takuya-Fuzita/video2qr.git
 cd video2qr
 sudo chmod +x setup.sh
 ./setup.sh
